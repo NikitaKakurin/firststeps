@@ -1,0 +1,61 @@
+	@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+body{
+	margin:0;
+	padding: 0;
+	
+	background-color: black;
+	background-image: url("../img/index-background.jpg");
+	background-position: top center;
+	background-repeat: no-repeat; 
+
+	color: rgb(247, 244, 241);
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;	
+
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+ul{
+	list-style-type: none; 
+}
+
+
+.main-header-nav{
+	font-size: 16px;
+	line-height: 20px;
+	color:#ffffff;
+
+	background-color: #000000; 
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus,
+.list-enterance a:hover,
+.list-enterance a:focus{
+	background-color: #242424;
+}
+
+.features-item{
+	text-align: center;
+}
+
+.features-item h3{
+	line-height: 42px;
+	font-size: 30px;
+}
+
+.visibility-hidden{
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin:-1px;
+}
