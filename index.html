@@ -117,8 +117,19 @@
 				<h2>Записаться</h2>
 				<p>Укажите желаемую дату и время и мы свяжемся <br>+
 				 с вами для подтверждения брони	</p>
-				 <form class = "booking-form">
-				 	
+				 <form class = "booking-form" name="booking" method="post" action="">
+				 	<label for="booking-date" >Дата</label>
+				 	<input type="date" name="date" id="booking-date" value="08.10.2017">
+
+				 	<label for="booking-time">Дата</label>
+				 	<input type="time" name="time" id="booking-time" value="10:00">
+
+				 	<label for="booking-your_name">Имя</label>
+				 	<input type="text" name="your_name" id="booking-your_name" placeholder="Борода">
+
+				 	<label for="booking-your_name">Номер телефона</label>
+				 	<input type="tel" name="phone_number" id="booking-phone" placeholder="+7 123 456-78-90" >
+					
 				 </form>
 			</section>
 		</main>
@@ -146,7 +157,11 @@
 			<h2>Личный кабинет</h2>
 			<p>Введите свой логин и пароль.</p>
 			<form>
-				
+				<label for=login-enterence class="visibility-hidden">Логин</label>
+				<input type="text" name="login" id="login-enterence" placeholder="логин">
+
+				<label class="visibility-hidden" for="password-enterance"></label>
+				<input type="password" name="password" id="password-enterance" placeholder="Пароль">
 			</form>
 			<button type="button" class="button-close">Закрыть</button>
 		</section>
